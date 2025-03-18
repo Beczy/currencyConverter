@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency App</title>
+    <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+      <div class="container">
+        <div class="currency">
+          <h2>Currency Converter</h2>
+          <div class="input-currency">
+            <p class="amount">Amount</p>
+            <input type="number" id="amount" placeholder="1">
+            <p class="from">From</p>
+            <select name="from" id="from">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="HUF">HUF</option>
+              <option value="GBP">GBP</option>
+              <option value="CHF">CHF</option>
+            </select>
+            <button class="change">
+              <i class="fas fa-exchange-alt"></i>
+            </button>
+            <p class="to">To</p>
+            <select name="to" id="to">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="HUF">HUF</option>
+              <option value="GBP">GBP</option>
+              <option value="CHF">CHF</option>
+            </select>
+            <p class="result">1 USD = 0.78 GBP</p>
+            <button class="exchange-button">Get Exchange Rate</button>
+          </div>
+        </div>
+      </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
